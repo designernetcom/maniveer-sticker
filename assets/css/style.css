@@ -1571,7 +1571,7 @@ textarea.is-invalid {
   visibility: hidden;
 }
 .th-menu-wrapper .mobile-logo {
-  padding: 30px 20px;
+  padding: 15px 20px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1584,10 +1584,10 @@ textarea.is-invalid {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: var(--title-color);
+  background-color: #fff;
 }
 .th-menu-wrapper .mobile-logo a img {
-  max-height: 35px;
+  max-height: 55px;
 }
 .th-menu-wrapper .mobile-logo svg {
   max-width: 185px;
@@ -1637,7 +1637,7 @@ textarea.is-invalid {
   overflow-y: scroll;
   max-height: calc(100vh - 200px);
   padding-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: left;
 }
 .th-mobile-menu ul {
@@ -20439,6 +20439,7 @@ hr.style1 {
     margin-left: 0;
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 40px;
   }
 }
 .feature-counter-wrapp {
@@ -25360,11 +25361,11 @@ hr.style1 {
 @media (max-width: 991px) {
   .space,
   .space-top {
-    padding-top: var(--section-space-mobile);
+    padding-top: 40px;
   }
   .space,
   .space-bottom {
-    padding-bottom: var(--section-space-mobile);
+    padding-bottom: 0px;
   }
   .space-extra,
   .space-extra-top {
@@ -29124,6 +29125,13 @@ hr.style1 {
   .checklist.style4 ul {
     grid-template-columns: auto;
   }
+  .od1{
+    order:2;
+  }
+  .od2{
+    order:1;
+  }
+  .checklist{flex-direction: column;}
 }
 .border-white {
   border-color: var(--white-color) !important;
